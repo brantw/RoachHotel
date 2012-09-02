@@ -1,0 +1,21 @@
+﻿@using RoachHotel.Mvc.Models
+@model Item
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.EditorForModel()
+        }
+    </div>
+</body>
+</html>

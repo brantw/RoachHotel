@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoachHotel.Mvc", "RoachHotel\RoachHotel.Mvc.csproj", "{186B81AB-0E33-494F-9C87-76368CC99581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoachHotel.Data", "RoachHotel.Data\RoachHotel.Data.csproj", "{ADABDB39-4A94-42B1-90C9-D310C716CA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoachHotel.Raven", "RoachHotel.Raven\RoachHotel.Raven.csproj", "{D4604A29-C7B6-428B-9DAA-50D3496794AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186B81AB-0E33-494F-9C87-76368CC99581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186B81AB-0E33-494F-9C87-76368CC99581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186B81AB-0E33-494F-9C87-76368CC99581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186B81AB-0E33-494F-9C87-76368CC99581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADABDB39-4A94-42B1-90C9-D310C716CA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADABDB39-4A94-42B1-90C9-D310C716CA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADABDB39-4A94-42B1-90C9-D310C716CA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADABDB39-4A94-42B1-90C9-D310C716CA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4604A29-C7B6-428B-9DAA-50D3496794AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4604A29-C7B6-428B-9DAA-50D3496794AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4604A29-C7B6-428B-9DAA-50D3496794AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4604A29-C7B6-428B-9DAA-50D3496794AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

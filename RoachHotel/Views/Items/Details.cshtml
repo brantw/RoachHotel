@@ -1,0 +1,25 @@
+﻿@model List<RoachHotel.Mvc.Models.Item>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+using (@Html.BeginForm())
+{
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    @for(int i = 0; i <= Model.Count; i++)
+    {
+        <tr>
+            <td>@Html.EditorFor(m => m[i].Name)</td>
+            <td>@Html.EditorFor(m => m[i].Description)</td>
+        </tr>
+    }
+</table>
+}
